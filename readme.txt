@@ -2,12 +2,9 @@ MacOS Instructions
 
 You must have the OpenAI python library installed from: https://platform.openai.com/docs/quickstart?context=python.
 
-To make this a terminal command you can run whenever, 
-you must navigate first to the directory the bot is 
-located in. In this directory, in the terminal, type 
-alias chatgpt= 'chatgpt-bot.py'. Once you do this, 
-open your ~/.zshrc file and type 
-alias chatgpt= '~/<insert_filepath_to_file>. 
+To create the alias you must open ~/.zshrc and enter:
+alias chatgpt='~/<insert_filepath_to_file>'
+
 After this you'll have to restart your terminal for it to work.
 
 To run the program, you just type chatgpt in your terminal, and if aliased correctly, it should run.
